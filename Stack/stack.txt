@@ -1,0 +1,33 @@
+Wat is een Stack ?
+
+Een stack is een datastructuur waarbij het laatste element dat wordt toegevoegd, als eerste wordt verwijdert.
+
+Het gebruikt het LIFO principe (Last In, First Out)
+10
+20
+30 <- Top
+
+Wat doet een Stack ?
+
+Een Stack slaat gegevens op in een stapel. Je kan het als een soortvan stapel pannenkoeken zien. Maar dan met data.
+
+Belangrijkste operaties:
+
+- Push -> elementen toevoegen
+- Pop -> bovenste element verwijderen
+- Peek/Top -> bovenste element verwijderen
+
+Waarom zou ik een Stack gebruiken ?
+
+Wanneer ik het laatste toegevoegde element als eerste wilt verwerken.
+
+Voordelen:
+
+- Snel toevoegen van elementen O(1)
+- Snel verwijderen van elementen O(1)
+- Handig voor undo/redo. 
+
+Nadelen:
+- Alleen toegang tot het bovenste element
+- Zoeken naar een specifiek element is traag O(n)
+- Geen directe toegang via een index zoals bij een array/list. 

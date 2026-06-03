@@ -1,0 +1,32 @@
+Wat is een queue ?
+
+Een Queue is een datastructuur, die werkt volgens het FIFO-principe 
+(First In, First Out)
+
+Het eerste element dat wordt toegevoegd, wordt als eerste verwijderd.
+
+Front -> 10 -> 20 -> 30 <- Rear
+
+Wat doet een Queue ?
+
+Een Queue slaat gegevens op in een wachtrij.
+
+Belangrijkste operatie:
+- Enqueue -> element toevoegen aan de achterkant.
+- Dequeue -> element verwijderen aan de voorkant.
+- Front/Peek -> eerste element bekijken
+
+Waarom zou ik een Queue gebruiken?
+
+- Snel toevoegen van elementen O(1)
+- Snel verwijderen van elementen O(1)
+- Geschikt voor wachtrijen en taakverwerking.
+
+We kunnen een Queue gebruiken wanneer elementen verwerkt moeten worden in de volgorde waarin ze binnenkomen.
+
+Bijvoorbeeld bij:
+
+- Wachtrijen bij printers 
+- Klanten in een supermarkt
+- Taakplanning in besturingssystemen. 
+

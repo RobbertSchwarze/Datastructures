@@ -1,0 +1,36 @@
+Wat is een HashMap, of Dictionary ?
+
+Een HashMap is een datastructuur die gegevens opslaat als key-value pairs.
+
+"Jan" -> 20
+"Emma" -> 22
+"Tom" -> 19
+
+Key = unieke sleutel
+Value = bijbehorende waarde
+
+Wat doet een HashMap?
+
+Een HashMap gebruikt een hashfunctie om snel gegevens op te slaan en terug te vinden.
+
+Je kunt:
+- Waarden toevoegen
+- Waarden opzoeken 
+- Waarden aanpassen
+- Waarden verwijderen
+
+Waarom zou ik een HashMap gebruiken?
+
+Een HashMap is ideaal wanneer je gegevens snel wilt opzoeken via een sleutel.
+
+Voorbeelden:
+
+De prijs van een productcode snel opzoeken.
+Gebruikersnaam van accountgegevens.
+
+Voordelen:
+
+- Zeer snel zoeken O(1)
+- Snel toevoegen O(1) 
+- Snel verwijderen O(1)
+- Gegevens kunnen eenvoudig via een unieke sleutel worden teruggevonden.

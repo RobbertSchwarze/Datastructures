@@ -1,0 +1,42 @@
+Wat is een Linked List ?
+
+Een Linked List is een datastructuur die bestaat uit een reeks nodes die aan elkaar gekoppeld zijn.
+
+Elke node bevat:
+1. Data -> waarde die je wilt opslaan.
+2. Pointer -> een verwijzing naar de volgenden node.]
+
+Elke node wijst naar de volgende node.
+
+Zo ziet het er visueel uit:
+
+[10|*] -> [20|*] -> [30|*] -> [40|Null]
+
+- 10, 20, 30, 40 zijn de data.
+- De pijlen zijn de pointers.
+- None betekent dat dit de laatste node is.
+
+Wat doet een Linked List ?
+
+Een Linked List slaat gegevens op in een ketting van nodes.
+In plaats van alle gegevens naast elkaar in het geheugen te bewaren (zoals bij een lijst/array),
+kunnen de nodes verspreid in het geheugen staan.
+
+Je kan dus elementen toevoegen, elementen verwijderen, door de lijst lopen, waarden zoeken.
+
+Waarom zou ik een Linked List gebruiken ?
+
+Er zijn dus een aantal voordelen: 
+- Snel invoegen van nieuwe elementen
+- Snel verwijderen van elementen
+- Dynamische grootte
+
+Er zijn ook een aantal nadelen:
+- Langzamer zoeken naar een element
+- Gebruikt extra geheugen voor pointers
+
+Gebruik wanneer:
+- Er vaak elementen worden toegevoegd of verwijderd.
+- De grootte van de lijst regelmatig verandert.
+
+
